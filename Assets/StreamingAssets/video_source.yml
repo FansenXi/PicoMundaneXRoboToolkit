@@ -18,7 +18,7 @@
     - name: "RawImageRectSize"
       type: "string"
       description: "Size of the RawImage rectangle for the seperated view"
-      value: "800x300"
+      value: "800x400"
     - name: "CamWidth"
       type: "int"
       description: "Camera width for the video stream"
