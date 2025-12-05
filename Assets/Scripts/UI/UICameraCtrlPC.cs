@@ -65,8 +65,8 @@ public partial class UICameraCtrl
             Debug.Log("value:" + value);
             value = value.Replace("\\", "");
             JsonData json = JsonMapper.ToObject(value);
-            int width = 2048;
-            int height = 1536;
+            int width = 2160;
+            int height = 2160;
             if (json.ContainsKey("width"))
             {
                 width = int.Parse(json["width"].ToString());
